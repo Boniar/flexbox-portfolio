@@ -43,3 +43,10 @@ body{
     padding-bottom: 4rem;
     font-weight: 700;
 }
+.banner__title{
+    font-size: 4em;
+    letter-spacing: 0.15rem;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+    text-transform: capitalize
+}
