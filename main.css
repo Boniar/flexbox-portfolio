@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto Mono',monospace;
+
+
+}
+
 :root{
     --light:#fff;
     --dark:#181b24;
@@ -13,13 +19,25 @@
     --orange:#fc5129;
     --SectionGrey:#f2f2f2;
 }
-
+/* nav */
 .nav{
     background: var(--light);
 }
-
-body{
-    font-family: 'Roboto Mono',monospace;
-
-
+/* header */
+.header{
+    min-height: 100vh;
+    background: url(./img/header-bcg.jpeg)center/cover fixed no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+/* banner */
+.banner{
+    /* as flex child*/
+    flex: 1 0 auto;
+    /* as flex parent*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: var(--dark);
+    text-align: center;
 }
