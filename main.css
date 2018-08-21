@@ -33,11 +33,13 @@ body{
 /* banner */
 .banner{
     /* as flex child*/
-    flex: 1 0 auto;
+    flex:1 0 auto;
     /* as flex parent*/
     display: flex;
     justify-content: center;
     align-items: flex-end;
     color: var(--dark);
     text-align: center;
+    padding-bottom: 4rem;
+    font-weight: 700;
 }
