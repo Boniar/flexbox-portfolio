@@ -8,8 +8,6 @@
 
 body{
     font-family: 'Roboto Mono',monospace;
-
-
 }
 
 :root{
@@ -64,13 +62,13 @@ body{
 
 .about{
     padding: 2rem 0;
-    margin: 2rem auto;
+    background: var(--SectionWhite);
 }
 .about__center{
     max-width: 90vw;
     margin: 2rem auto;
 }
-.about__img{
+.about-img{
     margin: 3rem 0;
     position: relative;
 }
@@ -131,4 +129,19 @@ body{
 .light-btn:hover{
     background: var(--dark);
     color: var(--light);
+}
+
+@media screen and (min-width: 992px){
+    .about__center{
+        display: flex;
+        justify-content: space-between;
+    }
+    .about-info,.about-img{
+        flex: 0 0 calc(50% - 1rem)
+    }
+    .about-info{
+        display: flex;
+        align-items: flex-end;
+    }
+
 }
